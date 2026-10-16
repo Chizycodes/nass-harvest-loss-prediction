@@ -1,0 +1,21 @@
+# Research data
+data/raw/
+data/processed/
+
+# Stata datasets
+*.dta
+
+# Other possible data files
+*.csv
+*.xlsx
+*.sav
+
+# Python
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store

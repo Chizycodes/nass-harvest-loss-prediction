@@ -10,6 +10,22 @@ The project also investigates whether adding household and farm information impr
 
 ## Dataset
 
+### Data origin and selection
+
+The data was downloaded from the National Bureau of Statistics (NBS), Nigeria, through its official microdata catalogue:
+
+[NASS 2023 study description and data access](https://microdata.nigerianstat.gov.ng/index.php/catalog/173/study-description)
+
+- **Survey:** National Agricultural Sample Survey 2023
+- **Reference ID:** NGA-NBS-NASS-2023-v01
+- **File format:** Stata (`.dta`)
+- **Download date:** October 3, 2026
+- **Local storage:** `data/raw/`
+
+This dataset was selected because it contains a direct question about reported crop loss alongside crop, location, household, and farm characteristics. Shared identifiers allow information from the household, plot, crop, and harvest tables to be connected.
+
+These features make it suitable for comparing predictions based on crop and location alone with predictions using additional household and farm information. The investigation focuses on the main agricultural season to keep the scope consistent and manageable.
+
 The survey contains 21 Stata files. This investigation uses four:
 
 | File | Information used |
